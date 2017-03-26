@@ -34,7 +34,7 @@
           <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
             <div class="sidebar-content">
               <h1 class="sidebar-heading"> <a href="index.html">Sarah Cook</a></h1>
-              <p class="sidebar-p">Currently finishing up my degree in Systems Design Engineering at University of Waterloo. This portfolio is a work in progress.</p>
+              <p class="sidebar-p">Currently finishing up my degree in Systems Design Engineering at University of Waterloo.</p>
               <p class="sidebar-p"> </p>
               <ul class="sidebar-menu"> 
                 <li><a href="index.html">Portfolio</a></li>
@@ -52,7 +52,7 @@
           </div>
           <!--   *** SIDEBAR END ***  -->
           <!--   *** DETAIL ***-->
-          <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+          <div class="col-xs-12 col-sm-8 col-sm-6 content-column white-background">
             <div class="small-navbar visible-xs">
               <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
               <h1 class="small-navbar-heading"> <a href="index.html">Sarah Cook </a></h1>
@@ -63,56 +63,79 @@
                   <h1>Akira</h1>
                   <p class="lead">The process of designing the mobile app interface for an autonomous snow removal solution.</p>
 
-                  <h2>Navigation</h2>
+                  <p>This is part of a larger project on designing a mobile app for an autonomous snow removal solution called Akira. If you're interested you can read more about the project and the process of <a href="akiraResearch.html">developing personas</a> for the system or the <a href="akiraLogo.html">logo development</a>.</p>
                   
                   <h2>Layout</h2>
-                  <p>*designing with patterns</p>
+                  <p>The user research identified two key user groups: those who lack time but have ample ability and those who lack ability but have ample time. These user groups can be generaly translated to young to middle age homeowners who are busy and older homeowners who have limited physical ability. </p>
+
+                  <p> With the large range of users, the layout and navigation for the system needs to be intuitive and easy to use. Becuase of this, I chose a top menu bar with a large workspace.</p>
+
+                  <p><img src="img/AkiraApp/Layout.png" alt="basic app layout for setup" class="image img-square img-responsive"></p>
+
+                  <p>For the setup process, I chose to deviate from using the standard top left back button, in favour of having the next and back buttons placed on the right and left sides of the screen resectivley. This design provides consistency and follows a more traditional design pattern for setup wizards.</p>
+
+                  <h2>Navigation</h2>
+                  <p>The biggest concern for the system is that the user is able to easily navigate the system through the setup process and is able to easily locate various settings after the set-up is complete. </p>
+
+                  <h4>Set-Up Proces</h4>
+                  <p>The Akira system requires the user to complete the hardware setup prior to use. Because of this, it is important that the setup process is efficent and well laid out, such that the remains engaged and is not detered by the setup. To accomplish this, I chose to map out the set-up process in order to break the setup process down into clear chunks. The task breaks down into three key steps:</p>
+                  <ol>
+                    <li>Connecting the app</li>
+                    <li>Setting up the navigation system</li>
+                    <li>Setting up the doghouse</li>
+                  </ol>
+                  
+                  <p><img src="img/AkiraApp/taskBreakdown.png" alt="task breakdown" class="image img-square img-responsive"></p>
+
+                  <p>Each of these three steps have multiple substeps, which need to be further broken down into chunks. In the end, I chose to break up the connecting Akira steps into two, so that it is clear that the connection methods are different.
+
+                  <h4>Menu Design</h4>
+                  <p>To design the menu, I completed a card sorting exercise with a number of users. These results were incorperated into the final menu hierarchy, shown in the refined design. </p>
+
+                  <p><img src="img/AkiraApp/cards.png" alt="task breakdown" class="image img-square img-responsive"></p>
+
 
                   <h2>Wireframes</h2>
-                  <p></p>
+                  <p>After deciding layout and the navigation, I developed a set of wireframes using Balsamiq. The wireframes focused on two key functions of the app:
+                    <ol>
+                      <li>Completing the Akira set-up process</li>
+                      <li>Defining plow and pile regions on the user's property</li>
+                    </ol> 
+                  </p>
+                  
+
+                  <p><img src="img/portfolio/wireframepngs.png" alt="task breakdown" class="image img-square img-responsive"></p>
+
 
                   <h2>User Testing</h2>
-
-                  <h2>Colour</h2>
-                  <h2>Refined Design</h2>
-                  <h2>Next Steps</h2>
-
-                  <h2>References</h2>
-                  <ol>
-                      <!--li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li-->
-
-                  </ol>
-
-
-
-
-
-<!--
-                  <div id="main-slider">
-                    <div class="item"><img alt="" src="img/slider/3.jpg" class="img-responsive"></div>
-                    <div class="item"><img alt="" src="img/slider/2.jpg" class="img-responsive"></div>
-                    <div class="item"><img alt="" src="img/slider/1.jpg" class="img-responsive"></div>
-                  </div>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                    <li>Aliquam tincidunt mauris eu risus.</li>
-                  </ol>
-                  <blockquote>
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-                  </blockquote>
-                  <h2>Header Level 2</h2>
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                  <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                  <p>Cognitive walkthroughs and design walkthroughs were completed with the wireframes. Users were asked to complete the Akira setup process and redefine the plow and pile regions within the app, then completed the System Usability Scale questionnaire. Major feedback on the app:</p>
                   <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                    <li>Aliquam tincidunt mauris eu risus.</li>
+                    <li>Explain why I'm completing this step</li>
+                    <li>Make the progress bar more prominent</li>
+                    <li></li>
                   </ul>
-                  <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
--->
+
+                  <p>With each round of testing, the wireframes were improved upon. After three iterations, I chose to make a high-fidelity set of wireframes.</p>
+
+                  <h2>Styling</h2>
+                  <p>For the colours within the app, I chose to use blue as the base colour because it is a cool colour, which matches the feel of snow and ice. Using Paletton, a colour palette development tool, I developed an number of abstract mood boards, shown below and surveyed users to see which colour scheme was the most popular.</p>
+                    <p><img src="img/AkiraApp/fourCS.png" alt="colour scheme options" class="image img-square img-responsive"></p> 
+
+                  <p>In the end, a monochromatic blue colour scheme was identified as the most popular colour scheme.</p>
+                    <p><img src="img/initalCS.png" alt="inital icon colours" class="image img-square img-responsive"></p>
+                  
+                  <p>For fonts, I chose to use Avenir a sans-serif font that will work well with the monochromatic colour scheme. Because the goal of Akira is a set and forget snow removal solution with little interaction, the app should match visually match the minimalist design of the system.</p>
+                  
+                  <h2>Refined Design</h2>
+                  <p>Once I had a colour scheme and fonts in mind, I set to work creating the refined mockups in Sketch. For icons, I used a generic <a href="http://fontawesome.io/icons/">icon set</a>. Flows of the app are on <a href="https://invis.io/XEAQMSEAM">invision</a>.</p>
+                    <p><img src="img/AkiraApp/HF.png" alt="High fidelity mockups" class="image img-square img-responsive"></p>
+
+
+
+                  <h2>Conclusions and Next steps</h2>
+                  <p>When further rounds of testing were completed using the high-fidelity mockups, the results were encouraging. System Usabilty Scale grades went from a D for the overall, usable and learnable subscales to a B+ for the overall and useable grades and an A- for the learnable grades. </p>
+
+                  <p>Next steps would include completing an inital round of development on the app to test interactions that are not suitably simulated using static images, such as the plow and pile definition functionality.</p>
                 </div>
               </div>
             </div>
